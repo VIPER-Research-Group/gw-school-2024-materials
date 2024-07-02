@@ -1,7 +1,21 @@
-Repository to hold educational material for the 2024 VIPER Summer School on PTA GW Astrophysics
+This the repository to hold educational material for the 2024 VIPER Summer School on PTA GW Astrophysics.
 
-#Installing a basic PTA software stack
-To install the PTA software stack, do
-`conda create -c conda-forge --name env_name python==3.x.x enterprise_extensions`
+How to install the PTA software (and its dependencies) on a LINUX machine:
+  1) `conda create -n viper -y -c conda-forge python=3.9`
+  2) `conda activate viper`
+  3) `conda install -y -c conda-forge enterprise-pulsar==3.3.2 enterprise_extensions==2.4.2`
+  4) `conda install -y -c conda-forge nb_conda jupyterlab`
 
-Any further packages can be added to this environment through pip and/or conda. The above process should also work with mamba.
+How to install the PTA software (and its dependencies) on a new MAC (M3) machine:
+  1) `CONDA_SUBDIR=osx-64`
+  2) `conda create -n viper -y -c conda-forge python=3.9`
+  3) `conda activate viper`
+  4) `conda config --env --set subdir osx-64`
+  5) `conda install -y -c conda-forge enterprise-pulsar==3.3.2 enterprise_extensions==2.4.2`
+  6) `conda install -y -c conda-forge nb_conda jupyterlab`
+
+How to install the PTA software (and its dependencies) on a WINDOWS machine:
+  1) Use [WSL] (https://learn.microsoft.com/en-us/windows/wsl/about) to install a LINUX instance on your Windows machine.
+  2) Follow the instructions for LINUX. The software will not run on WINDOWS natively!
+
+  
