@@ -15,7 +15,7 @@ How to install the PTA software (and its dependencies) on a new MAC (M3) machine
   6) `conda install -y -c conda-forge nb_conda jupyterlab`
 
 How to install the PTA software (and its dependencies) on a WINDOWS machine:
-  1) Use [WSL] (https://learn.microsoft.com/en-us/windows/wsl/about) to install a LINUX instance on your Windows machine.
+  1) Use [WSL](https://learn.microsoft.com/en-us/windows/wsl/about) to install a LINUX instance on your Windows machine.
   2) Follow the instructions for LINUX. The software will not run on WINDOWS natively!
 
   
