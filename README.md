@@ -1,6 +1,7 @@
 This the repository to hold educational material for the 2024 VIPER Summer School on PTA GW Astrophysics.
 
 How to install the PTA software (and its dependencies) on a LINUX machine:
+
   0) Install [Anaconda](https://docs.anaconda.com/anaconda/install/)
   1) `conda create -n viper -y -c conda-forge python=3.9`
   2) `conda activate viper`
@@ -8,6 +9,7 @@ How to install the PTA software (and its dependencies) on a LINUX machine:
   4) `conda install -y -c conda-forge nb_conda jupyterlab`
 
 How to install the PTA software (and its dependencies) on a new MAC (M3) machine:
+
   0) Install [Anaconda](https://docs.anaconda.com/anaconda/install/)
   1) `CONDA_SUBDIR=osx-64`
   2) `conda create -n viper -y -c conda-forge python=3.9`
